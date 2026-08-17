@@ -4,20 +4,20 @@ repos:
     hooks:
       - id: ruff
         args: [--fix]
-        files: ^UnidadIII/clinica/
+        files: ^UnidadIV/clinica/
       - id: ruff-format
-        files: ^UnidadIII/clinica/
+        files: ^UnidadIV/clinica/
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0
     hooks:
       - id: trailing-whitespace
-        files: ^UnidadIII/clinica/
+        files: ^UnidadIV/clinica/
       - id: end-of-file-fixer
-        files: ^UnidadIII/clinica/
+        files: ^UnidadIV/clinica/
       - id: check-yaml
-        files: ^UnidadIII/clinica/
+        files: ^UnidadIV/clinica/
       - id: check-toml
-        files: ^UnidadIII/clinica/
+        files: ^UnidadIV/clinica/
       - id: check-added-large-files
-        files: ^UnidadIII/clinica/
+        files: ^UnidadIV/clinica/

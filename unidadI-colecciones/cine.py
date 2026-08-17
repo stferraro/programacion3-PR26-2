@@ -108,11 +108,4 @@ def main():
             print('Gracias por su compra, vuelva pronto!')
             break
     
-main()  
-
-
-
-
-
-
-
+main()

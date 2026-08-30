@@ -1,0 +1,7 @@
+ID Consulta: 1
+Fecha: 15/11/2026
+Hora: 11:15:00
+Motivo: Fiebre
+Diagnostico: denge
+Tratamiento: paracetamol
+Precio: 2000

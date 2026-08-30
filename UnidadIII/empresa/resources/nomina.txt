@@ -1,0 +1,36 @@
+Nombre: Tech Solutions C.A.
+RIF: J-12345678-9
+Dirección: Av. Principal, Caracas
+Empleados:
+Nombre: Carlos
+Apellido: Pérez
+Cédula: V-12345678
+Salario: 1200.0
+Antigüedad: 10
+Cargo: 1
+******************************
+Salario Total:  1440.00
+Nombre: María
+Apellido: Rodríguez
+Cédula: V-23456789
+Salario: 900.0
+Antigüedad: 6
+Cargo: 2
+******************************
+Salario Total:  1035.00
+Nombre: Luis
+Apellido: Torres
+Cédula: V-34567890
+Salario: 850.0
+Antigüedad: 4
+Cargo: 3
+******************************
+Salario Total:  935.00
+Nombre: Sofía
+Apellido: Martínez
+Cédula: V-45678901
+Salario: 700.0
+Proyecto Asignado: Migración de sistemas
+Meses de Contrato: 6
+******************************
+Salario Total:  630.00

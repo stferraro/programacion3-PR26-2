@@ -1,0 +1,42 @@
+Nombre de la clínica: Clínica Veterinaria San Roque
+RIF: J-12345678-9
+**************************************************
+Servicios:
+Codigo de servicio: 1
+Fecha: 10/03/2026
+Nombre de la mascota: Firulais
+Nombre del cliente: Carlos Pérez
+Costo base: 25.00
+Costo total: 35.00
+**************************************************
+Nombre del veterinario: Dra. Ana Gómez
+Especialidad: 1
+Codigo de servicio: 2
+Fecha: 15/03/2026
+Nombre de la mascota: Michi
+Nombre del cliente: María Rodríguez
+Costo base: 20.00
+Costo total: 25.00
+**************************************************
+Nombre del veterinario: Dr. Luis Torres
+Especialidad: 2
+Codigo de servicio: 3
+Fecha: 20/03/2026
+Nombre de la mascota: Rocky
+Nombre del cliente: Pedro Ramírez
+Costo base: 15.00
+Costo total: 75.00
+**************************************************
+Días de estadía: 5
+Tipo de habitación: 1
+Codigo de servicio: 4
+Fecha: 25/03/2026
+Nombre de la mascota: Luna
+Nombre del cliente: Sofía Martínez
+Costo base: 18.00
+Costo total: 62.10
+**************************************************
+Días de estadía: 3
+Tipo de habitación: 2
+**************************************************
+Total facturado: 197.10

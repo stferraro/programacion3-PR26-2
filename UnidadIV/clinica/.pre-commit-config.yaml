@@ -1,0 +1,23 @@
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.16.3
+    hooks:
+      - id: ruff
+        args: [--fix]
+        files: ^UnidadIV/clinica/
+      - id: ruff-format
+        files: ^UnidadIV/clinica/
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+        files: ^UnidadIV/clinica/
+      - id: end-of-file-fixer
+        files: ^UnidadIV/clinica/
+      - id: check-yaml
+        files: ^UnidadIV/clinica/
+      - id: check-toml
+        files: ^UnidadIV/clinica/
+      - id: check-added-large-files
+        files: ^UnidadIV/clinica/

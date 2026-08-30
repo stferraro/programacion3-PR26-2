@@ -1,0 +1,5 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/admin/trabajo/universidad/programacion3-PR26-2/curso_genesis/hola'
+relocations:     []
+...

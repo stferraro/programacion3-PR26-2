@@ -51,9 +51,10 @@ class Servicio:
         return self._costo_base
     
     def __str__(self):
+        fecha = self._fecha.strftime("%d/%m/%Y")
         return "\n".join([
             f"Servicio: {self._codigo}",
-            f"Fecha: {self._fecha}",
+            f"Fecha: {fecha}",
             f"Nombre mascota: {self._nombre_mascota}",
             f"Nombre dueño: {self._nombre_dueño}",
             f"Costo base: {self._costo_base}"

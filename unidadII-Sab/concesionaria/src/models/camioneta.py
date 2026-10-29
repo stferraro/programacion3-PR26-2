@@ -27,9 +27,9 @@ class Camioneta(Vehiculo):
     def get_subtotal(self):
         subtotal = super().get_subtotal()
         if self.__tipo_traccion.lower() == "4x4":
-            return subtotal * 1.12
+            subtotal *= 1.12
         if self.__capacidad_pasajeros > 5:
-            return subtotal + 400
+            subtotal += 400
         return subtotal
         
     def __str__(self):

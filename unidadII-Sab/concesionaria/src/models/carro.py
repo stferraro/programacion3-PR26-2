@@ -28,11 +28,12 @@ class Carro(Vehiculo):
         self.__num_puertas = value
 
     def get_descuento(self):
+        descuento = super().get_descuento()
         if self._tipo_transmision == "Manual":
-            return 0.05
+            return descuento + 0.05
         elif self._tipo_transmision == "Automática":
-            return 0.08
-        return 0.0
+            return descuento + 0.08
+        return descuento
 
     def __str__(self):
         return "\n".join([

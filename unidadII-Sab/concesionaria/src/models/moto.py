@@ -28,6 +28,13 @@ class Moto(Vehiculo):
         if self.__cilindrada > 250:
             return super().get_subtotal() + (self.__cilindrada * 0.50) + 150
         return super().get_subtotal() + (self.__cilindrada * 0.50)
+    
+    def __str__(self):
+        return "\n".join([
+            super().__str__(),
+            f"Cilindrada: {self.__cilindrada} cc",
+            f"Tipo de motor: {self.__tipo_motor}"
+        ])
 
         
     

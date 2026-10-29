@@ -29,6 +29,6 @@ class Camion(Vehiculo):
     def __str__(self):
         return "\n".join([
             super().__str__(),
-            f"Capacidad de carga: {self.__capacidad_carga} kg",
+            f"Capacidad de carga: {self.__capacidad_carga} toneladas",
             f"Número de ejes: {self.__num_ejes}"
         ])

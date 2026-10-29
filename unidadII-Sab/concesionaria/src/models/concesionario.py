@@ -1,4 +1,3 @@
-from .cliente import Cliente
 from .vehiculo import Vehiculo
 
 class Concesionario:
@@ -41,12 +40,12 @@ class Concesionario:
             print("-" * 40)
             
     def calcular_total_ventas(self):
-        return sum(vehiculo.get_subtotal() for vehiculo in self.__vehiculos)
+        return sum(vehiculo.get_precio_final() for vehiculo in self.__vehiculos)
     
     def __str__(self):
         datos_concesionario = "\n".join([
             f"Nombre: {self.__nombre}",
-            f"Dirección: {self.__direccion}",\
+            f"Dirección: {self.__direccion}",
         ])
         datos_vehiculos = "\n".join([str(vehiculo) for vehiculo in self.__vehiculos])
         return f"{datos_concesionario}\n\nVehículos:\n{datos_vehiculos}\n\nTotal de ventas: ${self.calcular_total_ventas():,.2f}"
